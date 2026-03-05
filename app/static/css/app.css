@@ -1,3 +1,27 @@
 body {
     padding-top: 5rem;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+span {
+    color: red;
+}
+
+.top {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+button {
+    border-radius: 10%;
+    background-color: rgb(55, 99, 200);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }

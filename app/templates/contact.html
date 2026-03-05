@@ -13,26 +13,28 @@
   {{ form.csrf_token }}
   
     <div class="container"> 
-      {{ form.name.label }} <span>(Required)</span> 
-      {{ form.name }} 
+      <div class="top">{{ form.name.label }} <span>(Required)</span> </div>
+      <div>{{ form.name }} </div>
     </div>
 
     <div class="container"> 
-      {{ form.email.label }} <span>(Required)</span> 
-      {{ form.email }} 
+      <div class="top">{{ form.email.label }} <span>(Required)</span> </div>
+      <div>{{ form.email }} </div>
     </div>
 
       <div class="container"> 
-      {{ form.subject.label }} <span>(Required)</span> 
-      {{ form.subject }} 
+        <div class="top">{{ form.subject.label }} <span>(Required)</span> </div>
+        <div>{{ form.subject }} </div>
     </div>
 
       <div class="container"> 
-      {{ form.message.label }} <span>(Required)</span> 
-      {{ form.message }} 
+        <div class="top">{{ form.message.label }} <span>(Required)</span> </div>
+        <div>{{ form.message }} </div>
     </div>
 
-     <button type="submit">Send</button>
+    <br>
+     
+    <button type="submit">Send</button>
 
   </div>
 
